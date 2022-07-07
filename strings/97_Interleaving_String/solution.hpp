@@ -21,6 +21,7 @@ using namespace std;
 class Solution {
 public:
     bool isInterleave(string s1, string s2, string s3) {
+        if(s1.size() + s2.size() !  = s3.size()) return false;
         vector<vector<bool>> grid(s1.size()+1, vector<bool>(s2.size()+1, false));
         grid[0][0] = true;
 
