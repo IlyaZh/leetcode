@@ -1,11 +1,12 @@
 # leetcode
 
-## Tasks I have done on my own
+## Done
  - July
     06: 424
 
 
 ## Done with help
+    424, 97
 
 ## Need my attention
 
