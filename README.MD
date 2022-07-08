@@ -1,12 +1,13 @@
 # leetcode
 
 ## Done
- - July
-    06: 424
+### July 22
+ - 06: 424
+ - 07: 97
 
 
 ## Done with help
-    424, 97
+424, 97
 
 ## Need my attention
 
