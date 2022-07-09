@@ -38,7 +38,7 @@ using namespace std;
 
 class Solution {
   int getMax() {
-    return heap[0];
+    return heap.empty() ? 0 : heap.front();
   }
 
   void pop() {
@@ -60,7 +60,7 @@ class Solution {
           std::swap(heap[current], heap[largest]);
           current = largest;
         } else {
-          break;
+          break; 
         }
       }
     } else if(heap.size() == 1) {
@@ -97,6 +97,6 @@ class Solution {
           }
         }
 
-        return heap.empty() ? 0 : getMax();
+        return getMax();
     }
 };
