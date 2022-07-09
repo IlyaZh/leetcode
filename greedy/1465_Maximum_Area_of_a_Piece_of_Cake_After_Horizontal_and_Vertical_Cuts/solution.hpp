@@ -22,19 +22,22 @@ public:
     int maxArea(int h, int w, vector<int>& horizontalCuts, vector<int>& verticalCuts) {
         int maxH = 0;
         int maxW = 0;
-        int last = 0;
+        int lastH = 0;
+        int lastW = 0;
+
         horizontalCuts.push_back(h);
         sort(horizontalCuts.begin(), horizontalCuts.end());
         verticalCuts.push_back(w);
         sort(verticalCuts.begin(), verticalCuts.end());
+
         for(const auto& cut : horizontalCuts) {
-            maxH = max(maxH, cut-last);
-            last = cut;
+            maxH = max(maxH, cut-lastH);
+            lastH = cut;
         }
-        last = 0;
+
         for(const auto& cut : verticalCuts) {
-            maxW = max(maxW, cut-last);
-            last = cut;
+            maxW = max(maxW, cut-lastW);
+            lastW = cut;
         }
         return (1LL*maxH*maxW) % 1000000007;
     } 
