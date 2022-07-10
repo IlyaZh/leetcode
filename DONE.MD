@@ -13,9 +13,9 @@
         <td>Total</td>
         <td><strong>5</strong></td>
         <td>Easy</td>
-        <td class="easy">1</td>
+        <td class="easy">3</td>
         <td>Medium</td>
-        <td class="medium">4</td>
+        <td class="medium">5</td>
         <td>Hard</td>
         <td class="hard">0</td>
     </tr>
@@ -53,9 +53,9 @@
             <td class="medium">1465</td> <!--col 3-->
             <td class="easy">1046</td> <!--col 4-->
             <td class="medium">692</td> <!--col 5-->
-            <td></td> <!--col 6-->
-            <td></td> <!--col 7-->
-            <td></td> <!--col 8-->
+            <td class="medium">1696</td> <!--col 6-->
+            <td class="easy">746</td> <!--col 7-->
+            <td class="easy">202</td> <!--col 8-->
             <td></td> <!--col 9-->
             <td></td> <!--col 10-->
             <td></td> <!--col 11-->
