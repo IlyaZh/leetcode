@@ -2,6 +2,8 @@
 
 ## Done
 
+Beautiful table with solved tasks [here](DONE.MD)
+
 ### July 22
 
 - 06: 424
