@@ -55,7 +55,7 @@ public:
                auto it = S.find(dp.at(i-k-1));
                S.erase(it);                
             }
-            dp[i] = max(dp[i], nums[i] + *S.rbegin());
+            dp[i] = nums[i] + *S.rbegin();
             S.insert(dp[i]);
         }
         return dp.back();
