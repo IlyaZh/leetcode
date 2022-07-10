@@ -1,12 +1,12 @@
 # Done tasks
 
-<style>
+<!-- <style>
     .easy {background: #00cc00;}
     .medium {background: #cccc00;}
     .hard {background: #ff0000;}
     td:nth-child(1) {font-weight: bold;}
     td {text-align: center;}
-</style>
+</style>-->
 
 <table>
     <tr>
