@@ -56,7 +56,7 @@
             <td class="medium">1696</td> <!--col 6-->
             <td class="easy">746</td> <!--col 7-->
             <td class="easy">202</td> <!--col 8-->
-            <td></td> <!--col 9-->
+            <td class="medium">54</td> <!--col 9-->
             <td></td> <!--col 10-->
             <td></td> <!--col 11-->
             <td></td> <!--col 12-->
