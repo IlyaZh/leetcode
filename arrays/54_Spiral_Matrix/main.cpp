@@ -20,12 +20,12 @@ void print(const vector<vector<int>>& matrix) {
 }
 
 int main(int argc, char* argv[]) {
-    // const vector<vector<int>> matrix = {
-    //     {1, 2, 3, 4},
-    //     {5, 6, 7, 8},
-    //     {9, 10, 11, 12}
-    // };
-    const vector<vector<int>> matrix = {{1,2,3,4,5,6,7,8,9,10}};
+    const vector<vector<int>> matrix = {
+        {1, 2, 3, 4},
+        {5, 6, 7, 8},
+        {9, 10, 11, 12}
+    };
+    // const vector<vector<int>> matrix = {{1,2,3,4,5,6,7,8,9,10}};
     Solution s;
     cout << "IN:" << endl;
     print(matrix);
