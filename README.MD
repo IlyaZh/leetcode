@@ -13,6 +13,8 @@ Beautiful table with solved tasks [here](DONE.MD)
 - 10: [746](dynamic_programming/746_Min_Cost_Climbing_Stairs/), [202](two_pointers/202_Happy_Number)
 - 11: [54](arrays/54_Spiral_Matrix/)
 - 12: [66](arrays/66_Plus_One/), [268](arrays/268_Missing_Number/), [128](hash_table/128_Longest_Consecutive_Sequence/)
+- 14: [199](trees/199_Binary_Tree_Right_Side_View/)
+- 17: 
 
 ## Done with help
 
