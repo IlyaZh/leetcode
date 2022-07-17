@@ -18,7 +18,7 @@ Beautiful table with solved tasks [here](DONE.MD)
 
 ## Done with help
 
-[424](https://github.com/IlyaZh/leetcode/tree/master/strings/424_Longest_Repeating_Character_Replacement), [97](strings/97_Interleaving_String), [1696](https://github.com/IlyaZh/leetcode/tree/master/dynamic_programming/1696_Jump_Game_VI), [202](two_pointers/202_Happy_Number), [473](backtracking/473_Matchsticks_to_Square/)
+[424](strings/424_Longest_Repeating_Character_Replacement/), [97](strings/97_Interleaving_String/), [1696](dynamic_programming/1696_Jump_Game_VI/), [202](two_pointers/202_Happy_Number), [473](backtracking/473_Matchsticks_to_Square/), [2343](arrays/2343_Query_Kth_Smallest_Trimmed_Number/), []()
 
 ## Need to be done
 https://leetcode.com/problems/binary-tree-right-side-view/
