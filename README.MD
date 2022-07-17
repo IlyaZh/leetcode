@@ -14,12 +14,11 @@ Beautiful table with solved tasks [here](DONE.MD)
 - 11: [54](arrays/54_Spiral_Matrix/)
 - 12: [66](arrays/66_Plus_One/), [268](arrays/268_Missing_Number/), [128](hash_table/128_Longest_Consecutive_Sequence/)
 - 14: [199](trees/199_Binary_Tree_Right_Side_View/)
-- 17: [2341](arrays/2341_Maximum_Number_of_Pairs_in_Array/), [2342](arrays/2342_Max_Sum_of_a_Pair_With_Equal_Sum_of_Digits/)
+- 17: [2341](arrays/2341_Maximum_Number_of_Pairs_in_Array/), [2342](arrays/2342_Max_Sum_of_a_Pair_With_Equal_Sum_of_Digits/), [2343](arrays/2343_Query_Kth_Smallest_Trimmed_Number/), [2344](arrays/2344_Minimum_Deletions_to_Make_Array_Divisible/), [629](dynamic_programming/629_K_Inverse_Pairs_Array)
 
 ## Done with help
 
-[424](strings/424_Longest_Repeating_Character_Replacement/), [97](strings/97_Interleaving_String/), [1696](dynamic_programming/1696_Jump_Game_VI/), [202](two_pointers/202_Happy_Number), [473](backtracking/473_Matchsticks_to_Square/), [2343](arrays/2343_Query_Kth_Smallest_Trimmed_Number/), [2343](arrays/
-), [2344](arrays/2344_Minimum_Deletions_to_Make_Array_Divisible/)
+[424](strings/424_Longest_Repeating_Character_Replacement/), [97](strings/97_Interleaving_String/), [1696](dynamic_programming/1696_Jump_Game_VI/), [202](two_pointers/202_Happy_Number), [473](backtracking/473_Matchsticks_to_Square/), [2343](arrays/2343_Query_Kth_Smallest_Trimmed_Number/), [2344](arrays/2344_Minimum_Deletions_to_Make_Array_Divisible/), [629](dynamic_programming/629_K_Inverse_Pairs_Array)
 
 ## Need to be done
 https://leetcode.com/problems/binary-tree-right-side-view/

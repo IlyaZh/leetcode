@@ -17,7 +17,7 @@
         <td>Medium</td>
         <td class="medium">11</td>
         <td>Hard</td>
-        <td class="hard">1</td>
+        <td class="hard">2</td>
     </tr>
 </table>
 
@@ -66,7 +66,7 @@
             <td class="medium">2342</td> <!--col 16-->
             <td class="medium">2343</td> <!--col 17-->
             <td class="hard">2344</td> <!--col 18-->
-            <td></td> <!--col 19-->
+            <td class="hard">629</td> <!--col 19-->
             <td></td> <!--col 20-->
         </tr>
         <tr> <!-- row 2-->
