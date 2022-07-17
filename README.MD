@@ -14,7 +14,7 @@ Beautiful table with solved tasks [here](DONE.MD)
 - 11: [54](arrays/54_Spiral_Matrix/)
 - 12: [66](arrays/66_Plus_One/), [268](arrays/268_Missing_Number/), [128](hash_table/128_Longest_Consecutive_Sequence/)
 - 14: [199](trees/199_Binary_Tree_Right_Side_View/)
-- 17: [2341](arrays/2341_Maximum_Number_of_Pairs_in_Array)
+- 17: [2341](arrays/2341_Maximum_Number_of_Pairs_in_Array/), [2342](arrays/2342_Max_Sum_of_a_Pair_With_Equal_Sum_of_Digits/)
 
 ## Done with help
 
