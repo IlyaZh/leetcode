@@ -25,6 +25,6 @@ int main(int argc, char* argv[]) {
   cout << "IN: h = " << h << ", w = " << w << ", " << endl;
   cout << "OUT: " << answer << endl;
   cout << "Expected: " << expect << endl;
-  assert(answer == expect);
+  assert(answer == expect && "Wrong answer");
   return 0;
 }
