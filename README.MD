@@ -16,7 +16,7 @@ Beautiful table with solved tasks [here](DONE.MD)
 - 14: [199](trees/199_Binary_Tree_Right_Side_View/)
 - 17: [2341](arrays/2341_Maximum_Number_of_Pairs_in_Array/), [2342](arrays/2342_Max_Sum_of_a_Pair_With_Equal_Sum_of_Digits/), [2343](arrays/2343_Query_Kth_Smallest_Trimmed_Number/), [2344](arrays/2344_Minimum_Deletions_to_Make_Array_Divisible/), [629](dynamic_programming/629_K_Inverse_Pairs_Array)
 - 19: [118](dynamic_programming/118_Pascals_Triangle/)
-- 24: [2351](strings/2351_First_Letter_to_Appear_Twice/), [2352](matrix/2352_Equal_Row_and_Column_Pairs/), [2353](other/2353_Design_a_Food_Rating_System/), [2354](other/2354_Number_of_Excellent_Pairs/)
+- 24: [2351](strings/2351_First_Letter_to_Appear_Twice/), [2352](matrix/2352_Equal_Row_and_Column_Pairs/), [2353](other/2353_Design_a_Food_Rating_System/), [2354](other/2354_Number_of_Excellent_Pairs/), [240](matrix/240_Search_a_2D_Matrix_II/)
 
 ## Done with help
 
