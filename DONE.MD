@@ -1,4 +1,4 @@
-# Done tasks
+	# Done tasks
 
 <!-- <style>
     .easy {background: #00cc00;}
@@ -11,13 +11,13 @@
 <table>
     <tr>
         <td>Total</td>
-        <td><strong>14</strong></td>
+        <td><strong>24</strong></td>
         <td>Easy</td>
-        <td class="easy">7</td>
+        <td class="easy">8</td>
         <td>Medium</td>
-        <td class="medium">11</td>
+        <td class="medium">13</td>
         <td>Hard</td>
-        <td class="hard">2</td>
+        <td class="hard">3</td>
     </tr>
 </table>
 
@@ -71,10 +71,10 @@
         </tr>
         <tr> <!-- row 2-->
             <td>20</td>
-            <td class=""></td> <!--col 1-->
-            <td class=""></td> <!--col 2-->
-            <td class=""></td> <!--col 3-->
-            <td class=""></td> <!--col 4-->
+            <td class="easy">2351</td> <!--col 1-->
+            <td class="medium">2352</td> <!--col 2-->
+            <td class="medium">2353</td> <!--col 3-->
+            <td class="hard">2354</td> <!--col 4-->
             <td class=""></td> <!--col 5-->
             <td class=""></td> <!--col 6-->
             <td class=""></td> <!--col 7-->
