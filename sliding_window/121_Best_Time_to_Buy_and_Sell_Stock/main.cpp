@@ -10,11 +10,6 @@ using namespace std;
 
 void print(bool flag) { cout << (flag ? "YES" : "NO"); }
 
-template <typename T>
-void print(const T& obj) {
-  cout << obj;
-}
-
 template <typename Container>
 void print(const Container& cont) {
   cout << "[ ";
@@ -24,12 +19,13 @@ void print(const Container& cont) {
 }
 
 int main([[maybe_unused]] int argc, [[maybe_unused]] char* argv[]) {
-  const int h = 1000000000;
-  const int w = 1000000000;
-  int expect = 4;
+  vector<int> prices = {1, 2, 3, 9, 5, 1};
+  int expect = 8;
   Solution s;
-  auto answer = s.func();
-  cout << "IN: h = " << h << ", w = " << w << ", " << endl;
+  auto answer = s.maxProfit(prices);
+  cout << "IN: prices = ";
+  print(prices);
+  cout << endl;
   cout << "OUT: " << answer << endl;
   cout << "Expected: " << expect << endl;
   assert(answer == expect && "Wrong answer");
