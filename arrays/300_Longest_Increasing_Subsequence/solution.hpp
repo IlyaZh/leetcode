@@ -31,30 +31,28 @@
 
 #pragma once
 
-#include <map>
+#include <algorithm>
+#include <iostream>
 #include <vector>
 
 using namespace std;
 
 class Solution {
  public:
-  using Num = int;
-  using Count = int;
-  Count lengthOfLIS(vector<Num>& nums) {
-    map<Num, Count> g;
-    Count maxLen = 0;
-    for (const auto& num : nums) {
-      auto it = g.lower_bound(num);
-      Count length = 0;
-      if (it != g.begin()) {
-        for (auto p = g.begin(); p != it; ++p) {
-          length = max(length, p->second);
-        }
+  int lengthOfLIS(vector<int>& nums) {
+    if (nums.empty()) return 0;
+    vector<int> seq;
+    seq.reserve(nums.size());
+    seq.push_back(nums[0]);
+    for (int i = 0, size = nums.size(); i < size; ++i) {
+      const auto& num = nums[i];
+      if (num > seq.back()) {
+        seq.push_back(num);
+      } else {
+        auto idx = std::lower_bound(seq.begin(), seq.end(), num) - seq.begin();
+        seq[idx] = num;
       }
-      const auto newLength = length + 1;
-      g[num] = newLength;
-      maxLen = max(maxLen, newLength);
     }
-    return maxLen;
+    return seq.size();
   }
 };
