@@ -29,5 +29,3 @@ Beautiful table with solved tasks [here](DONE.MD)
 
 ## Need to be done
 
-
-## TODO next
