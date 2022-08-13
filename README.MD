@@ -21,7 +21,7 @@ Beautiful table with solved tasks [here](DONE.MD)
 ### August 2022
 
  - 12: [242](arrays/242_Valid_Anagram/)
- - 13: [2367](arrays/2367_Number_of_Arithmetic_Triplets/)
+ - 13: [2367](arrays/2367_Number_of_Arithmetic_Triplets/), [1](arrays/1_Two_Sum/)
 
 ## Done with help
 
