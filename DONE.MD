@@ -13,7 +13,7 @@
         <td>Total</td>
         <td><strong>24</strong></td>
         <td>Easy</td>
-        <td class="easy">9</td>
+        <td class="easy">10</td>
         <td>Medium</td>
         <td class="medium">14</td>
         <td>Hard</td>
@@ -77,7 +77,7 @@
             <td class="hard">2354</td> <!--col 4-->
             <td class="medium">240</td> <!--col 5-->
             <td class="easy">242</td> <!--col 6-->
-            <td class=""></td> <!--col 7-->
+            <td class="easy">2367</td> <!--col 7-->
             <td class=""></td> <!--col 8-->
             <td class=""></td> <!--col 9-->
             <td class=""></td> <!--col 10-->
