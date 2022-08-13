@@ -31,7 +31,14 @@ using namespace std;
 class Solution {
  public:
   int maxProfit(vector<int>& prices) {
+    if (prices.empty()) return 0;
     int profit = 0;
+    int minPrice = 0;
+    minPrice = prices.front();
+    for (int i = 1, size = prices.size(); i < size; ++i) {
+      minPrice = std::min(minPrice, prices[i]);
+      profit = std::max(profit, prices[i] - minPrice);
+    }
     return profit;
   }
 };
