@@ -80,7 +80,7 @@
             <td class="easy">2367</td> <!--col 7-->
             <td class="easy">1</td> <!--col 8-->
             <td class="medium">300</td> <!--col 9-->
-            <td class=""></td> <!--col 10-->
+            <td class="easy">125</td> <!--col 10-->
             <td class=""></td> <!--col 11-->
             <td class=""></td> <!--col 12-->
             <td class=""></td> <!--col 13-->

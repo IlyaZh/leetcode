@@ -8,15 +8,17 @@
 
 using namespace std;
 
+void print(bool flag) { cout << (flag ? "YES" : "NO"); }
+
 template <typename Container>
-void printCont(const Container& cont) {
+void print(const Container& cont) {
   cout << "[ ";
   copy(cont.begin(), cont.end(),
        ostream_iterator<typename Container::value_type>(cout, " "));
   cout << "]";
 }
 
-int main(int argc, char* argv[]) {
+int main([[maybe_unused]] int argc, [[maybe_unused]] char* argv[]) {
   const int h = 1000000000;
   const int w = 1000000000;
   int expect = 4;

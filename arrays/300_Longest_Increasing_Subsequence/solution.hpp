@@ -44,7 +44,7 @@ class Solution {
     vector<int> seq;
     seq.reserve(nums.size());
     seq.push_back(nums[0]);
-    for (int i = 0, size = nums.size(); i < size; ++i) {
+    for (int i = 1, size = nums.size(); i < size; ++i) {
       const auto& num = nums[i];
       if (num > seq.back()) {
         seq.push_back(num);
