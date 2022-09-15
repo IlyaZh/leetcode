@@ -10,11 +10,6 @@ using namespace std;
 
 void print(bool flag) { cout << (flag ? "YES" : "NO"); }
 
-template <typename T>
-void print(const T& obj) {
-  cout << obj;
-}
-
 template <typename Container>
 void print(const Container& cont) {
   cout << "[ ";

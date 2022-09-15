@@ -25,7 +25,7 @@ Beautiful table with solved tasks [here](DONE.MD)
 
 ### September 2022
 
- - 15: [206](linked_list/206_Reverse_Linked_List/)
+ - 15: [206](linked_list/206_Reverse_Linked_List/), [21](linked_list/21_Merge_Two_Sorted_Lists/)
 
 ## Done with help
 
