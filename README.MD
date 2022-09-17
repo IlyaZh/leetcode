@@ -1,9 +1,5 @@
 # leetcode
 
-## Done
-
-Beautiful table with solved tasks [here](DONE.MD)
-
 ### July 22
 
 - 06: [424](strings/424_Longest_Repeating_Character_Replacement/)
@@ -26,7 +22,7 @@ Beautiful table with solved tasks [here](DONE.MD)
 ### September 2022
 
  - 15: [206](linked_list/206_Reverse_Linked_List/), [21](linked_list/21_Merge_Two_Sorted_Lists/)
- - 16: [141](linked_list/141_Linked_List_Cycle/), [226](trees/226_Invert_Binary_Tree/)
+ - 16: [141](linked_list/141_Linked_List_Cycle/), [226](trees/226_Invert_Binary_Tree/), [104](trees/104_Maximum_Depth_of_Binary_Tree/)
 
 ## Done with help
 

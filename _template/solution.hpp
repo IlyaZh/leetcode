@@ -4,8 +4,6 @@
 
 // TASK DESCTIPTION
 
-#include <iostream>
-
 class Solution {
  public:
   int func() {
