@@ -6,15 +6,13 @@
 
 #include "solution.hpp"
 
-using namespace std;
-
 void print(bool flag) { cout << (flag ? "YES" : "NO"); }
 
 template <typename Container>
 void print(const Container& cont) {
   cout << "[ ";
-  copy(cont.begin(), cont.end(),
-       ostream_iterator<typename Container::value_type>(cout, " "));
+  std::copy(cont.begin(), cont.end(),
+            std::ostream_iterator<typename Container::value_type>(cout, " "));
   cout << "]";
 }
 
@@ -24,9 +22,9 @@ int main([[maybe_unused]] int argc, [[maybe_unused]] char* argv[]) {
   int expect = 4;
   Solution s;
   auto answer = s.func();
-  cout << "IN: h = " << h << ", w = " << w << ", " << endl;
-  cout << "OUT: " << answer << endl;
-  cout << "Expected: " << expect << endl;
+  std::cout << "IN: h = " << h << ", w = " << w << ", " << std::endl;
+  std::cout << "OUT: " << answer << std::endl;
+  std::cout << "Expected: " << expect << std::endl;
   assert(answer == expect && "Wrong answer");
   return 0;
 }
