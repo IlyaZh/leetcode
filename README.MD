@@ -24,6 +24,9 @@
  - 15: [206](linked_list/206_Reverse_Linked_List/), [21](linked_list/21_Merge_Two_Sorted_Lists/)
  - 16: [141](linked_list/141_Linked_List_Cycle/), [226](trees/226_Invert_Binary_Tree/), [104](trees/104_Maximum_Depth_of_Binary_Tree/)
 
+### October 2022
+ - 29: [202](math/202_happy_number/)
+
 ## Done with help
 
 [424](strings/424_Longest_Repeating_Character_Replacement/), [97](strings/97_Interleaving_String/), [1696](dynamic_programming/1696_Jump_Game_VI/), [202](two_pointers/202_Happy_Number), [473](backtracking/473_Matchsticks_to_Square/), [2343](arrays/2343_Query_Kth_Smallest_Trimmed_Number/), [2344](arrays/2344_Minimum_Deletions_to_Make_Array_Divisible/), [629](dynamic_programming/629_K_Inverse_Pairs_Array), [2353](other/2353_Design_a_Food_Rating_System/), [2354](other/2354_Number_of_Excellent_Pairs/)
