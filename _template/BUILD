@@ -3,6 +3,7 @@ cc_binary(
   srcs=["main.cpp", "solution.hpp"],
   deps=["//libs:common"],
   visibility = ["//visibility:public"],
+  copts=["--std=c++2a"],
 )
 
 cc_test(
@@ -12,4 +13,5 @@ cc_test(
       "//_template:main",
       "@gtest//:gtest_main"
     ],
+  copts=["--std=c++2a"],
 )
