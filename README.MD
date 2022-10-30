@@ -25,7 +25,7 @@
  - 16: [141](linked_list/141_Linked_List_Cycle/), [226](trees/226_Invert_Binary_Tree/), [104](trees/104_Maximum_Depth_of_Binary_Tree/)
 
 ### October 2022
- - 29: [202](math/202_happy_number/)
+ - 29: [202](math/202_happy_number/), [66](math/66_Plus_One/)
 
 ## Done with help
 
