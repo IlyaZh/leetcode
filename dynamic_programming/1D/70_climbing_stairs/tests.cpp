@@ -29,3 +29,10 @@ TEST(SolutionTest, Stairs_4) {
   decltype(result) answer{5};
   EXPECT_EQ(result, answer);
 }
+
+TEST(SolutionTest, Stairs_5) {
+  Solution s;
+  const auto result = s.climbStairs(5);
+  decltype(result) answer{8};
+  EXPECT_EQ(result, answer);
+}

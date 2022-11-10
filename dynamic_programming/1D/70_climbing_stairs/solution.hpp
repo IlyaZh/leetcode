@@ -31,12 +31,15 @@ class Solution {
  public:
   int climbStairs(int n) {
     if (n == 1) return 1;
-    std::vector<int> stairs(n);
-    stairs[0] = 1;
-    stairs[1] = 2;
+    if (n == 2) return 2;
+    int prepre = 1;
+    int pre = 2;
+    int result = 3;
     for (size_t i = 2; i < static_cast<size_t>(n); ++i) {
-      stairs[i] = stairs[i - 1] + stairs[i - 2];
+      result = pre + prepre;
+      prepre = pre;
+      pre = result;
     }
-    return stairs.back();
+    return result;
   }
 };
