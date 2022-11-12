@@ -11,9 +11,9 @@
 <table>
     <tr>
         <td>Total</td>
-        <td><strong>39</strong></td>
+        <td><strong>40</strong></td>
         <td>Easy</td>
-        <td class="easy">21</td>
+        <td class="easy">22</td>
         <td>Medium</td>
         <td class="medium">15</td>
         <td>Hard</td>
@@ -95,7 +95,7 @@
         <tr> <!-- row 3-->
             <td>40</td>
             <td class="easy">543</td> <!--col 1-->
-            <td class=""></td> <!--col 2-->
+            <td class="easy">110</td> <!--col 2-->
             <td class=""></td> <!--col 3-->
             <td class=""></td> <!--col 4-->
             <td class=""></td> <!--col 5-->

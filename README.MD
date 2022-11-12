@@ -29,7 +29,7 @@
 
 ### November 2022
  - 10: [70](dynamic_programming/1D/70_climbing_stairs/)
- - 12: [100](trees/100_Same_Tree/), [543](trees/543_Diameter_of_Binary_Tree/)
+ - 12: [100](trees/100_Same_Tree/), [543](trees/543_Diameter_of_Binary_Tree/), [110](trees/110_Balanced_Binary_Tree/)
 
 ## Done with help
 
