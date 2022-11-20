@@ -32,7 +32,7 @@
  - 12: [100](trees/100_Same_Tree/), [543](trees/543_Diameter_of_Binary_Tree/), [110](trees/110_Balanced_Binary_Tree/)
  - 13: [572](/trees/572_Subtree_of_Another_Tree/), [190](/bit_manipulations/190_Reverse_Bits/), [338](bit_manipulations/338_Counting_Bits/), [920](intervals/920_meeting_rooms/), [49](arrays/49_Group_Anagrams/)
  - 19: [347](arrays/347_top_k_frequent_elements), [15](arrays/15_3sum)
- - 20: [36](arrays/36_valid_sudoku/)
+ - 20: [36](arrays/36_valid_sudoku/), [167](two_pointers/167_two_sum_II__input_array_is_sorted)
 
 ## Done with help
 
