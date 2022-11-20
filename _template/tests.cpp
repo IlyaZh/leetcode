@@ -2,7 +2,7 @@
 
 #include "solution.hpp"
 
-TEST(SolutionTest, BasicAssertions) {
+TEST(SolutionTest, Case1) {
   Solution s;
   const auto result = s.func();
   decltype(result) answer{};
