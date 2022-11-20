@@ -11,11 +11,11 @@
 <table>
     <tr>
         <td>Total</td>
-        <td><strong>47</strong></td>
+        <td><strong>48</strong></td>
         <td>Easy</td>
         <td class="easy">26</td>
         <td>Medium</td>
-        <td class="medium">18</td>
+        <td class="medium">19</td>
         <td>Hard</td>
         <td class="hard">3</td>
     </tr>
@@ -103,7 +103,7 @@
             <td class="medium">49</td> <!--col 7-->
             <td class="medium">347</td> <!--col 8-->
             <td class="medium">15</td> <!--col 9-->
-            <td class=""></td> <!--col 10-->
+            <td class="medium">36</td> <!--col 10-->
             <td class=""></td> <!--col 11-->
             <td class=""></td> <!--col 12-->
             <td class=""></td> <!--col 13-->

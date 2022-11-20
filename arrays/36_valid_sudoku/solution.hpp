@@ -48,7 +48,39 @@
 // board[i].length == 9
 // board[i][j] is a digit 1-9 or '.'.
 
+// #include <unordered_set>
+#include <vector>
+
 class Solution {
+  constexpr static const size_t kSize = 9;  // by conditions
+  constexpr static const size_t kCubeSize = 3;
+  int GetCubeNum(size_t r, size_t c) {
+    return (r / kCubeSize) * (kSize / kCubeSize) + (c / kCubeSize);
+  }
+
  public:
-  bool isValidSudoku(vector<vector<char>>& board) {}
+  bool isValidSudoku(std::vector<std::vector<char>>& board) {
+    // Time: O(n) = O(size^2)
+    // Space: O(size^2)
+    std::vector<std::vector<bool>> rows(kSize, std::vector<bool>(kSize, false));
+    std::vector<std::vector<bool>> cols(kSize, std::vector<bool>(kSize, false));
+    std::vector<std::vector<bool>> cubes(kSize,
+                                         std::vector<bool>(kSize, false));
+
+    for (size_t r = 0; r < kSize; ++r) {
+      for (size_t c = 0; c < kSize; ++c) {
+        const auto& num = board[r][c];
+        const auto idx = num - '0';
+        const auto cube = GetCubeNum(r, c);
+        if (num == '.') {
+          continue;
+        }
+        if (rows[r][idx] || cols[c][idx] || cubes[cube][idx]) {
+          return false;
+        }
+        rows[r][idx] = cols[c][idx] = cubes[cube][idx] = true;
+      }
+    }
+    return true;
+  }
 };
