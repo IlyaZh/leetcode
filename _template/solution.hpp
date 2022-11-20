@@ -4,6 +4,8 @@
 
 // TASK DESCTIPTION
 
+using namespace std;
+
 class Solution {
  public:
   int func() {
