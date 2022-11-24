@@ -34,7 +34,8 @@
  - 19: [347](arrays/347_top_k_frequent_elements), [15](arrays/15_3sum)
  - 20: [36](arrays/36_valid_sudoku/), [167](two_pointers/167_two_sum_II__input_array_is_sorted), [3](sliding_window/3_longest_substring_without_repeating_characters/), [155](stack/155_min_stack/), [74](binary_search/74_search_a_2D_matrix), [143](linked_list/143_reorder_list)
  - 21: [235](235_lowest_common_ancestor_of_a_binary_search_tree)
- - 22: [208](tires/208_implement_trie)
+ - 22: [208](tires/208_implement_trie), [973](973_K_closest_points_to_origin)
+ - 23: [383](hash_table/383_ransom_note/)
 
 ## Done with help
 
