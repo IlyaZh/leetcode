@@ -41,6 +41,7 @@
  - 01: [78](backtracking/78_subsets)
  - 04: [200](graphs/200_number_of_islands)
  - 07: [133](graphs/133_clone_graph)
+ - 10: [53](greedy/53_maximum_subarray)
 
 ## Done with help
 
