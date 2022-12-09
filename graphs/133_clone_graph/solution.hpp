@@ -83,14 +83,13 @@ class Node {
 class Solution {
   unordered_map<Node*, Node*> mp;
   Node* dfs(Node* current) {
+    if (mp.count(current)) {
+      return mp[current];
+    }
     auto clone = new Node(current->val);
     mp[current] = clone;
     for (auto neighbor : current->neighbors) {
-      if (mp.count(neighbor)) {
-        clone->neighbors.push_back(mp[neighbor]);
-      } else {
-        clone->neighbors.push_back(dfs(neighbor));
-      }
+      clone->neighbors.push_back(dfs(neighbor));
     }
     return clone;
   }
@@ -98,7 +97,6 @@ class Solution {
  public:
   Node* cloneGraph(Node* node) {
     if (node == nullptr) return nullptr;
-    auto clone = dfs(node);
-    return clone;
+    return dfs(node);
   }
 };
