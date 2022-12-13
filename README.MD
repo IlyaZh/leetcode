@@ -41,11 +41,12 @@
  - 01: [78](backtracking/78_subsets)
  - 04: [200](graphs/200_number_of_islands)
  - 07: [133](graphs/133_clone_graph)
+ - 10: [53](greedy/53_maximum_subarray)
  - 13: [198](dynamic_programming/1D/198_house_robber/)
 
 ## Done with help
 
-[424](strings/424_Longest_Repeating_Character_Replacement/), [97](strings/97_Interleaving_String/), [1696](dynamic_programming/1696_Jump_Game_VI/), [202](two_pointers/202_Happy_Number), [473](backtracking/473_Matchsticks_to_Square/), [2343](arrays/2343_Query_Kth_Smallest_Trimmed_Number/), [2344](arrays/2344_Minimum_Deletions_to_Make_Array_Divisible/), [629](dynamic_programming/629_K_Inverse_Pairs_Array), [2353](other/2353_Design_a_Food_Rating_System/), [2354](other/2354_Number_of_Excellent_Pairs/), [920](intervals/920_meeting_rooms/), [15](arrays/15_3sum), [143](linked_list/143_reorder_list), [200](graphs/200_number_of_islands)
+[424](strings/424_Longest_Repeating_Character_Replacement/), [97](strings/97_Interleaving_String/), [1696](dynamic_programming/1696_Jump_Game_VI/), [202](two_pointers/202_Happy_Number), [473](backtracking/473_Matchsticks_to_Square/), [2343](arrays/2343_Query_Kth_Smallest_Trimmed_Number/), [2344](arrays/2344_Minimum_Deletions_to_Make_Array_Divisible/), [629](dynamic_programming/629_K_Inverse_Pairs_Array), [2353](other/2353_Design_a_Food_Rating_System/), [2354](other/2354_Number_of_Excellent_Pairs/), [920](intervals/920_meeting_rooms/), [15](arrays/15_3sum), [143](linked_list/143_reorder_list), [200](graphs/200_number_of_islands), [53](greedy/53_maximum_subarray)
 
 ## Need to be done
 
