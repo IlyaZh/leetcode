@@ -49,7 +49,7 @@
 
 ### January 2023
  - 7: [371](bit_manipulations/371_sum_of_two_integers), [238](arrays/238_product_of_array_except_self)
- - 8: [659](arrays/659_encode_and_decode_strings)
+ - 15: [659](arrays/659_encode_and_decode_strings)
 
 ## Done with help
 
@@ -59,7 +59,7 @@
 
 # Algorithms
 
-I implemented some "classical" algorithms for learn it
+Explaination and implementations some of algorithms in puprose of learning
 
 ## Strings
 [**Knuth-Morris-Praths**](algorithms/Knuth-Morris-Prath/) for findind substring W in string S
