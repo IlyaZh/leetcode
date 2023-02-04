@@ -52,7 +52,7 @@
  - 15: [659](arrays/659_encode_and_decode_strings)
 
 ### February 2023
- - 04: [150](stack/150_evaluate_reverse_polish_notation)
+ - 04: [150](stack/150_evaluate_reverse_polish_notation), [22](stack/22_generate_parentheses/)
 
 ## Done with help
 
