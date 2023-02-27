@@ -55,6 +55,7 @@
  - 04: [150](stack/150_evaluate_reverse_polish_notation), [22](stack/22_generate_parentheses/), [11](two_pointers/11_container_with_most_water/)
  - 12: [739](stack/739_daily_temperatures)
  - 26: [875](binary_search/875_koko_eating_bananas)
+ - 27: [424](sliding_window/424_longest_repeating_character_replacement)
 
 ## Done with help
 
