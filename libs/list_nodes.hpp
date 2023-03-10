@@ -10,7 +10,7 @@ struct ListNode {
   ListNode(int x, ListNode* next) : val(x), next(next) {}
 };
 
-std::vector<int> ToVector(ListNode* head) {
+std::vector<int> ToVector(const ListNode* head) {
   std::vector<int> nums;
   while (head != nullptr) {
     nums.push_back(head->val);
