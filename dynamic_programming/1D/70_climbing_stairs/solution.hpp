@@ -30,16 +30,18 @@
 class Solution {
  public:
   int climbStairs(int n) {
+    // It is Fibonacci sequence!
     if (n == 1) return 1;
-    if (n == 2) return 2;
-    int prepre = 1;
-    int pre = 2;
-    int result = 3;
-    for (size_t i = 2; i < static_cast<size_t>(n); ++i) {
-      result = pre + prepre;
-      prepre = pre;
-      pre = result;
+
+    auto n1 = 1;
+    auto n2 = 2;
+
+    for (int i = 3; i <= n; ++i) {
+      auto t = n1;
+      n1 = n2;
+      n2 += t;
     }
-    return result;
+
+    return n2;
   }
 };
