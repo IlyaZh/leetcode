@@ -33,17 +33,12 @@ using namespace std;
 class Solution {
  public:
   int maxSubArray(vector<int>& nums) {
-    if (nums.empty()) {
-      return 0;
-    }
-    int sum = 0;
+    int current_sum = nums.front();
     int max_sum = nums.front();
-    for (const auto num : nums) {
-      if (sum < 0) {
-        sum = 0;
-      }
-      sum += num;
-      max_sum = max(sum, max_sum);
+    for (size_t i = 1; i < nums.size(); ++i) {
+      const auto& num = nums[i];
+      current_sum = max(current_sum + num, num);
+      max_sum = max(max_sum, current_sum);
     }
     return max_sum;
   }
