@@ -64,7 +64,7 @@
 
 ### April 2023
  - 19: [39](backtracking/39_combination_sum)
- - 30: [112](trees/112_path_sum)
+ - 30: [112](trees/112_path_sum), [113](trees/113_path_sum_II)
 
 ## Done with help
 
