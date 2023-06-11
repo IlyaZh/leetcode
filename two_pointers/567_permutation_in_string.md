@@ -13,7 +13,7 @@
 m = len(s1)
 n = len(s2)
 
-Time: O(m+n)
+Time: O(n)
 Space: O(m+n)
 
 ## Solution
