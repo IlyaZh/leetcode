@@ -1,4 +1,4 @@
-# X. Title
+# X. Title [Easy/Medium/Hard]
 
 [Leetcode]()
 
