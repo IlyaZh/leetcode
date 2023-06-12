@@ -28,6 +28,9 @@
 
 #pragma once
 
+// Time: O(m+n)
+// Space: O(1)
+
 struct ListNode {
   int val;
   ListNode* next;

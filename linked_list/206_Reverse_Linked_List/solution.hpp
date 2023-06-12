@@ -39,17 +39,31 @@ struct ListNode {
 class Solution {
  public:
   ListNode* reverseList(ListNode* head) {
-    if (head == nullptr || head->next == nullptr) return head;
+    ListNode* prev = nullptr;
     ListNode* current = head;
-    ListNode* next = current->next;
-    current->next = nullptr;
-
-    while (next != nullptr) {
-      ListNode* tmp = next->next;
-      next->next = current;
+    ListNode* next;
+    while (current != nullptr) {
+      next = current->next;
+      current->next = prev;
+      prev = current;
       current = next;
-      next = tmp;
     }
-    return current;
+    return prev;
   }
+};
+
+// Recursive solution
+
+class Solution2 {
+  ListNode* Recursive(ListNode* prev, ListNode* curr) {
+    if (curr == nullptr) {
+      return prev;
+    }
+    auto next = curr->next;
+    curr->next = prev;
+    return Recursive(curr, next);
+  }
+
+ public:
+  ListNode* reverseList(ListNode* head) { return Recursive(nullptr, head); }
 };

@@ -1,51 +1,40 @@
 #include <gtest/gtest.h>
-#include <string>
-#include <iostream>
-#include <vector>
-#include <memory>
+
 #include <algorithm>
+#include <iostream>
+#include <memory>
 #include <optional>
+#include <queue>
+#include <string>
+#include <vector>
+
+// Time: O(n*log(m+n))
+// Space: O(m+n)
 
 using namespace std;
 
 class Solution {
-	vector<int> m_heap;
-	
-	public:
-	int findKthLargest(vector<int>& nums, int k) {
-		m_heap.clear();
-		m_heap = nums;
-		make_heap(m_heap.begin(), m_heap.end());
-		while(k-- > 1) {
-			pop_heap(m_heap.begin(), m_heap.end(), std::greater<>());
-		}
-		return m_heap.front();
-	}
+  int k_{};
+  std::priority_queue<int, vector<int>, std::greater<int>> pq_{};
+
+ public:
+  Solution(int k, vector<int>& nums) : k_(k) {
+    for (const auto& num : nums) {
+      pq_.push(num);
+    }
+
+    while (pq_.size() > k_) {
+      pq_.pop();
+    }
+  }
+
+  int add(int val) {
+    pq_.push(val);
+
+    if (pq_.size() > k_) {
+      pq_.pop();
+    }
+
+    return pq_.top();
+  }
 };
-
-
-
-
-
-
-TEST(ClassTest, Test_1) {
-	Solution s;
-	vector<int> in {3,2,1,5,6,4};
-	int k = 2;
-	int out = 5;
-	int res = s.findKthLargest(in, k);
-	EXPECT_EQ(res, out);
-}
-
-TEST(ClassTest, Test_2) {
-	Solution s;
-	vector<int> in {3,2,3,1,2,4,5,5,6};
-	int k = 4;
-	int out = 4;
-	EXPECT_EQ(s.findKthLargest(in, k), out);
-}
-
-int main(int argc, char** argv) {
-	::testing::InitGoogleTest(&argc, argv);
-	return RUN_ALL_TESTS();
-}

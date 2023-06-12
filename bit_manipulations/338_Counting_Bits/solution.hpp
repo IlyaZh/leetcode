@@ -35,45 +35,17 @@
 #include <unordered_map>
 #include <vector>
 
+using namespace std;
+
+// Time: O(N)
+// Space: O(N)
+
 class Solution {
-  using Map = std::unordered_map<int, size_t>;
-  int CountOnes(int n) {
-    int count = 0;
-    while (n) {
-      ++count;
-      const auto prev = n - 1;
-      n &= prev;
-    }
-    return count;
-  }
-  int divide(int n) {
-    if (n == 0) return 0;
-    if (n == 1) return 1;
-    if (n % 2) {
-      return 1 + divide(n / 2);
-    } else {
-      return divide(n / 2);
-    }
-  }
-  int divideMemo(size_t n, Map& map) {
-    if (n == 0) return 0;
-    if (n == 1) return 1;
-
-    if (map.count(n)) return map[n];
-    if (n % 2) {
-      map[n] = 1 + divideMemo(n / 2, map);
-    } else {
-      map[n] = divideMemo(n / 2, map);
-    }
-    return map[n];
-  }
-
  public:
-  std::vector<int> countBits(int n) {
-    std::vector<int> result(n + 1);
-    Map map;
-    for (size_t i = 0, size = result.size(); i < size; ++i) {
-      result[i] = divideMemo(i, map);
+  vector<int> countBits(int n) {
+    vector<int> result(n + 1);
+    for (int i = 0; i <= n; ++i) {
+      result[i] = result[i / 2] + i % 2;
     }
     return result;
   }

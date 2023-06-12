@@ -69,7 +69,7 @@
 ### May 2023
 
 ### June 2023
-- 11: [567](two_pointers/567_permutation_in_string.md)
+- 11: [567](two_pointers/567_permutation_in_string.md), [215](heap/215_Kth_Largest_Element_in_an_Array/), [191](/bit_manipulations/191_number_of_1_bits.md)
 
 ## Done with help
 

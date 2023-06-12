@@ -38,24 +38,21 @@
 #include <algorithm>
 #include <vector>
 
+// Time: O(n)
+// Space: O(n)
+
 class Solution {
  public:
-  std::vector<int> plusOne(const std::vector<int>& digits) {
-    std::vector<int> result;
-    result.reserve(digits.size() + 1);
-    bool add = true;
-    for (auto it = digits.crbegin(); it != digits.crend(); ++it) {
-      auto digit = *it;
-      if (add) {
-        ++digit;
+  vector<int> plusOne(vector<int>& digits) {
+    for (auto it = digits.rbegin(); it != digits.rend(); ++it) {
+      if (*it != 9) {
+        *it += 1;
+        return digits;
       }
-      result.push_back(digit % 10);
-      add = ((digit / 10) != 0);
+      *it = 0;
     }
-    if (add) {
-      result.push_back(1);
-    }
-    std::reverse(result.begin(), result.end());
-    return result;
+    digits.push_back(0);
+    digits[0] = 1;
+    return digits;
   }
 };
