@@ -71,6 +71,7 @@
 ### June 2023
 - 11: [567](two_pointers/567_permutation_in_string.md), [215](heap/215_Kth_Largest_Element_in_an_Array/), [191](/bit_manipulations/191_number_of_1_bits.md)
 - 12: [853](/stack/853_car_fleet.md), [287](/linked_list/287_find_the_duplicate_number.md)
+- 17: [33](/binary_search/33_search_in_rotated_sorted_array.md)
 
 ## Done with help
 
