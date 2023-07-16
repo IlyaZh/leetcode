@@ -74,7 +74,7 @@
 - 17: [33](/binary_search/33_search_in_rotated_sorted_array.md), [981](/binary_search/981_time_based_key-value_store.md)
 
 ### July 2023
-- 16: [138](/linked_list/138_copy_list_with_random_pointer.md)
+- 16: [138](/linked_list/138_copy_list_with_random_pointer.md), [2](/linked_list/2_add_two_numbers.md)
 
 ## Done with help
 
