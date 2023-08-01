@@ -78,7 +78,7 @@
 - 30: [146](/linked_list/146_lru_cache.md)
 
 ### August 2023
-- 01: [102](/trees/102_binary_tree_level_order_traversal.md)
+- 01: [102](/trees/102_binary_tree_level_order_traversal.md), [199](/trees/199_binary_tree_right_side_view.md)
 
 ## Done with help
 
