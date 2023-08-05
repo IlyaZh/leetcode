@@ -79,6 +79,7 @@
 
 ### August 2023
 - 01: [102](/trees/102_binary_tree_level_order_traversal.md), [199](/trees/199_binary_tree_right_side_view.md), [1448](/trees/1448_count_good_nodes_in_binary_tree.md)
+- 05: [98](/trees/98_validate_binary_search_tree.md)
 
 ## Done with help
 
