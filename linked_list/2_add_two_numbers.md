@@ -36,28 +36,21 @@ Space: O(max(n,m))
 #         self.next = next
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
-        answer = None
-        lastAnswer = None
-        shift = 0
-
+        c, r, head = 0, None, None
         while l1 or l2:
-            v1 = l1.val if l1 else 0
-            v2 = l2.val if l2 else 0
-            newNumber = (v1 + v2 + shift)
-            newNode = ListNode(newNumber % 10)
-            shift = (v1 + v2 + shift) // 10
-            l1 = l1.next if l1 else None
-            l2 = l2.next if l2 else None
-
-            if not answer:
-                answer = newNode
-                lastAnswer = answer
+            s1 = l1.val if l1 is not None else 0
+            s2 = l2.val if l2 is not None else 0
+            c += s1 + s2
+            t = ListNode(c % 10)
+            c = c // 10
+            if head:
+                head.next = t
             else:
-                lastAnswer.next = newNode
-                lastAnswer = lastAnswer.next
-
-        if shift != 0:
-            lastAnswer.next = ListNode(shift)
-
-        return answer
+                r = t
+            head = t
+            l1 = None if not l1 else l1.next
+            l2 = None if not l2 else l2.next
+        if c != 0:
+            head.next = ListNode(c)
+        return r
 ```

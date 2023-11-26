@@ -6,7 +6,7 @@
 - 07: [97](https://github.com/IlyaZh/leetcode/tree/master/strings/97_Interleaving_String)
 - 08: [1465](https://github.com/IlyaZh/leetcode/tree/master/greedy/1465_Maximum_Area_of_a_Piece_of_Cake_After_Horizontal_and_Vertical_Cuts)
 - 09: [1046](https://github.com/IlyaZh/leetcode/tree/master/heap/1046_Last_Stone_Weight), [692](https://github.com/IlyaZh/leetcode/tree/master/heap/692_Top_K_Frequent_Words), [1696](https://github.com/IlyaZh/leetcode/tree/master/dynamic_programming/1696_Jump_Game_VI)
-- 10: [746](dynamic_programming/746_Min_Cost_Climbing_Stairs/), [202](two_pointers/202_Happy_Number)
+- 10: [746](dynamic_programming/746_min_cost_climbing_stairs.md), [202](two_pointers/202_Happy_Number)
 - 11: [54](arrays/54_Spiral_Matrix/)
 - 12: [66](arrays/66_Plus_One/), [268](arrays/268_Missing_Number/), [128](hash_table/128_Longest_Consecutive_Sequence/)
 - 14: [199](trees/199_Binary_Tree_Right_Side_View/)
@@ -59,11 +59,11 @@
  - 28: [153](binary_search/153_find_minimum_in_rotated_sorted_array)
 
 ### March 2023
- - 10: [19](linked_list/19_remove_nth_node_from_end_of_list)
+ - 10: [19](linked_list/19_remove_nth_node_from_end_of_list.md)
  - 11: [448](array/448_find_all_numbers_disappeared_in_an_array/), [136](bit_manipulation/136_single_number), [303](dynamic_programming/1D/303_range_sum_query_immutable)
 
 ### April 2023
- - 19: [39](backtracking/39_combination_sum)
+ - 19: [39](backtracking/39_combination_sum.md)
  - 30: [112](trees/112_path_sum), [113](trees/113_path_sum_II), [124](trees/124_Binary_Tree_Maximum_Path_Sum)`
 
 ### May 2023
@@ -81,6 +81,9 @@
 - 01: [102](/trees/102_binary_tree_level_order_traversal.md), [199](/trees/199_binary_tree_right_side_view.md), [1448](/trees/1448_count_good_nodes_in_binary_tree.md)
 - 05: [98](/trees/98_validate_binary_search_tree.md)
 - 06: [230](/trees/230_Kth_smallest_element_in_a_BST.md)
+
+### November 2023
+- 18: [494](/dynamic_programming/494_target_sum.md), [79](/backtracking/79_word_search.md)
 
 ## Done with help
 
