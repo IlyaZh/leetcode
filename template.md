@@ -13,7 +13,7 @@ Space: O()
 
 ## Solution
 
-> Text solution
+Text solution
 
 ```python
 ```
