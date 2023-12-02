@@ -87,7 +87,7 @@
 - 26: [200](/graphs/200_number_of_islands.md)
 
 ### December 2023
-- 2: [328](/linked_list/328_odd_even_linked_list.md)
+- 2: [328](/linked_list/328_odd_even_linked_list.md), [56](/arrays/56_merge_intervals.md)
 
 ## Done with help
 
