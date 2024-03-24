@@ -102,6 +102,7 @@
 ### March 2024
 - 08: [103](/trees/103_binary_tree_zigzag_level_order_traversal.md)
 - 09: [116](/trees/116_populating_next_right_pointers_in_each_node.md)
+- 24: [236](/trees/236_lowest_common_ancestor_of_a_binary_tree.md)
 
 ## Done with help
 
