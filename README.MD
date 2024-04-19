@@ -110,7 +110,7 @@
 - 16: [713](/sliding_window/713_subarray_product_less_than_k.md)
 - 17: [1004](/sliding_window/1004_max_consecutive_ones_III.md)
 - 18: [17](/backtracking/17_letter_combinations_of_a_phone_number.md)
-- 19: [392](/two_pointers/392_is_subsequence.md)
+- 19: [392](/two_pointers/392_is_subsequence.md), [257](/trees/257_binary_tree_paths.md)
 
 ## Done with help
 
