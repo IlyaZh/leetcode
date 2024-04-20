@@ -111,6 +111,7 @@
 - 17: [1004](/sliding_window/1004_max_consecutive_ones_III.md)
 - 18: [17](/backtracking/17_letter_combinations_of_a_phone_number.md)
 - 19: [392](/two_pointers/392_is_subsequence.md), [257](/trees/257_binary_tree_paths.md)
+- 20: [643](/sliding_window/643_maximum_average_subarray_I.md), [46](/backtracking/46_permutations.md)
 
 ## Done with help
 
