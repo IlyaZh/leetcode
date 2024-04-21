@@ -40,7 +40,6 @@
 ### December 2022
  - 01: [78](backtracking/78_subsets)
  - 04: [200](graphs/200_number_of_islands)
- - 07: [133](graphs/133_clone_graph)
  - 10: [53](greedy/53_maximum_subarray)
  - 13: [198](dynamic_programming/1D/198_house_robber/)
  - 15: [62](dynamic_programming/2D/62_unique_paths/)
@@ -112,7 +111,7 @@
 - 18: [17](/backtracking/17_letter_combinations_of_a_phone_number.md)
 - 19: [392](/two_pointers/392_is_subsequence.md), [257](/trees/257_binary_tree_paths.md)
 - 20: [643](/sliding_window/643_maximum_average_subarray_I.md), [46](/backtracking/46_permutations.md), [142](/linked_list/142_linked_list_cycle_II.md)
-- 21: [232](/stack/232_implement_queue_using_stacks.md), 
+- 21: [232](/stack/232_implement_queue_using_stacks.md), [133](/graphs/133_clone_graph.md)
 
 ## Done with help
 
