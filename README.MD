@@ -112,6 +112,7 @@
 - 18: [17](/backtracking/17_letter_combinations_of_a_phone_number.md)
 - 19: [392](/two_pointers/392_is_subsequence.md), [257](/trees/257_binary_tree_paths.md)
 - 20: [643](/sliding_window/643_maximum_average_subarray_I.md), [46](/backtracking/46_permutations.md), [142](/linked_list/142_linked_list_cycle_II.md)
+- 21: [232](/stack/232_implement_queue_using_stacks.md), 
 
 ## Done with help
 
