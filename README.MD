@@ -51,7 +51,7 @@
  - 15: [659](arrays/659_encode_and_decode_strings)
 
 ### February 2023
- - 04: [150](stack/150_evaluate_reverse_polish_notation), [22](stack/22_generate_parentheses/), [11](two_pointers/11_container_with_most_water/)
+ - 04: [22](stack/22_generate_parentheses/), [11](two_pointers/11_container_with_most_water/)
  - 12: [739](stack/739_daily_temperatures)
  - 26: [875](binary_search/875_koko_eating_bananas)
  - 27: [424](sliding_window/424_longest_repeating_character_replacement)
@@ -112,6 +112,7 @@
 - 19: [392](/two_pointers/392_is_subsequence.md), [257](/trees/257_binary_tree_paths.md)
 - 20: [643](/sliding_window/643_maximum_average_subarray_I.md), [46](/backtracking/46_permutations.md), [142](/linked_list/142_linked_list_cycle_II.md)
 - 21: [232](/stack/232_implement_queue_using_stacks.md), [133](/graphs/133_clone_graph.md)
+- 22: [150](/stack/150_evaluate_reverse_polish_notation.md)
 
 ## Done with help
 
