@@ -63,9 +63,7 @@
 
 ### April 2023
  - 19: [39](backtracking/39_combination_sum.md)
- - 30: [112](trees/112_path_sum), [113](trees/113_path_sum_II), [124](trees/124_Binary_Tree_Maximum_Path_Sum)`
-
-### May 2023
+ - 30: [112](trees/112_path_sum), [113](trees/113_path_sum_II), [124](trees/124_Binary_Tree_Maximum_Path_Sum)
 
 ### June 2023
 - 11: [567](two_pointers/567_permutation_in_string.md), [215](heap/215_Kth_Largest_Element_in_an_Array/), [191](/bit_manipulations/191_number_of_1_bits.md)
@@ -112,7 +110,7 @@
 - 19: [392](/two_pointers/392_is_subsequence.md), [257](/trees/257_binary_tree_paths.md)
 - 20: [643](/sliding_window/643_maximum_average_subarray_I.md), [46](/backtracking/46_permutations.md), [142](/linked_list/142_linked_list_cycle_II.md)
 - 21: [232](/stack/232_implement_queue_using_stacks.md), [133](/graphs/133_clone_graph.md)
-- 22: [150](/stack/150_evaluate_reverse_polish_notation.md)
+- 22: [150](/stack/150_evaluate_reverse_polish_notation.md), [322](/dynamic_programming/322_coin_change.md)
 
 ## Done with help
 
