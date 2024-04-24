@@ -11,6 +11,7 @@
 - 21: [232](/stack/232_implement_queue_using_stacks.md), [133](/graphs/133_clone_graph.md)
 - 22: [150](/stack/150_evaluate_reverse_polish_notation.md), [322](/dynamic_programming/322_coin_change.md)
 - 23: [238](/two_pointers/238_product_of_array_except_self.md)
+- 24: [155](stack/155_min_stack.md)
 
 
 ### March 2024
@@ -95,7 +96,7 @@
  - 12: [100](trees/100_Same_Tree/), [543](trees/543_Diameter_of_Binary_Tree/), [110](trees/110_Balanced_Binary_Tree/)
  - 13: [572](/trees/572_Subtree_of_Another_Tree/), [190](/bit_manipulations/190_Reverse_Bits/), [338](bit_manipulations/338_Counting_Bits/), [920](intervals/920_meeting_rooms/), [49](arrays/49_Group_Anagrams/)
  - 19: [347](arrays/347_top_k_frequent_elements), [15](arrays/15_3sum)
- - 20: [36](arrays/36_valid_sudoku/), [167](two_pointers/167_two_sum_II__input_array_is_sorted), [3](sliding_window/3_longest_substring_without_repeating_characters/), [155](stack/155_min_stack/), [74](binary_search/74_search_a_2D_matrix), [143](linked_list/143_reorder_list)
+ - 20: [36](arrays/36_valid_sudoku/), [167](two_pointers/167_two_sum_II__input_array_is_sorted), [3](sliding_window/3_longest_substring_without_repeating_characters/), [155](stack/155_min_stack.md), [74](binary_search/74_search_a_2D_matrix), [143](linked_list/143_reorder_list)
  - 21: [235](235_lowest_common_ancestor_of_a_binary_search_tree)
  - 22: [208](tires/208_implement_trie), [973](973_K_closest_points_to_origin)
  - 23: [383](hash_table/383_ransom_note/)
