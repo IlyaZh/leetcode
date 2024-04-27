@@ -14,6 +14,7 @@
 - 24: [155](stack/155_min_stack.md)
 - 25: [200](/graphs/200_number_of_islands.md)
 - 26: [994](/graphs/994_rotting_oranges.md)
+- 27: Repeat [33](/binary_search/33_search_in_rotated_sorted_array.md)
 
 
 ### March 2024
