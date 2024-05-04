@@ -1,5 +1,9 @@
 # leetcode
 
+
+### May 2024
+- 04: Repeat [1448](/trees/1448_count_good_nodes_in_binary_tree.md)
+
 ### Arpil 2024
 - 14: [863](/trees/863_all_nodes_distance_k_in_binary_tree.md)
 - 15: [16](/arrays/16_3sum_closest.md)
@@ -15,7 +19,7 @@
 - 25: [200](/graphs/200_number_of_islands.md)
 - 26: [994](/graphs/994_rotting_oranges.md)
 - 27: Repeat [33](/binary_search/33_search_in_rotated_sorted_array.md)
-- 29: Repeat [39](backtracking/39_combination_sum.md), 
+- 29: Repeat [39](backtracking/39_combination_sum.md)
 
 ### March 2024
 - 08: [103](/trees/103_binary_tree_zigzag_level_order_traversal.md)

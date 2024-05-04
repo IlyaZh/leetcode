@@ -50,16 +50,20 @@ Space: O(1)
 #         self.right = right
 class Solution:
     def goodNodes(self, root: TreeNode) -> int:
-        return self.visit(root, -10**4-1)
+        count = 0
 
-    def visit(self, root: Optional[TreeNode], maxValue: int) -> int:
-        if not root:
-            return 0;
+        def Dfs(root: TreeNode, maxValue: int):
+            nonlocal count
+
+            if root.val >= maxValue:
+                count += 1
+
+            if root.left:
+                Dfs(root.left, max(maxValue, item.val))
+            if root.right:
+                Dfs(root.right, max(maxValue, item.val))
         
-        isGood = 0
-        if root.val >= maxValue:
-            maxValue = root.val
-            isGood = 1
-            
-        return isGood + self.visit(root.left, maxValue) + self.visit(root.right, maxValue)
+        Dfs(root, root.val)
+
+        return count
 ```
