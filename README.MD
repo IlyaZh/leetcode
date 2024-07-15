@@ -1,5 +1,8 @@
 # leetcode
 
+### July 2024
+- 14: Repeat [230](/trees/230_Kth_smallest_element_in_a_BST.md)
+- 15: [621](/heap/621_task_scheduler.md)
 
 ### May 2024
 - 04: Repeat [1448](/trees/1448_count_good_nodes_in_binary_tree.md)
@@ -125,9 +128,9 @@
 
 ### July 22
 - 06: [424](strings/424_Longest_Repeating_Character_Replacement/)
-- 07: [97](https://github.com/IlyaZh/leetcode/tree/master/strings/97_Interleaving_String)
-- 08: [1465](https://github.com/IlyaZh/leetcode/tree/master/greedy/1465_Maximum_Area_of_a_Piece_of_Cake_After_Horizontal_and_Vertical_Cuts)
-- 09: [1046](https://github.com/IlyaZh/leetcode/tree/master/heap/1046_Last_Stone_Weight), [692](https://github.com/IlyaZh/leetcode/tree/master/heap/692_Top_K_Frequent_Words), [1696](https://github.com/IlyaZh/leetcode/tree/master/dynamic_programming/1696_Jump_Game_VI)
+- 07: [97](strings/97_Interleaving_String)
+- 08: [1465](greedy/1465_Maximum_Area_of_a_Piece_of_Cake_After_Horizontal_and_Vertical_Cuts)
+- 09: [1046](heap/1046_Last_Stone_Weight), [692](heap/692_Top_K_Frequent_Words), [1696](dynamic_programming/1696_Jump_Game_VI)
 - 10: [746](dynamic_programming/746_min_cost_climbing_stairs.md), [202](two_pointers/202_Happy_Number)
 - 11: [54](arrays/54_Spiral_Matrix/)
 - 12: [66](arrays/66_Plus_One/), [268](arrays/268_Missing_Number/), [128](hash_table/128_Longest_Consecutive_Sequence/)
